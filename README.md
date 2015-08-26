@@ -17,3 +17,6 @@ Android JNI 层的音频编解码库，现在已经合入的有 AMR, PCMA, PCMU 
 
 ### 编译
 直接在根目录执行 ndk-build 即可.
+
+### 备注
+实际使用建议修改 JNI 动态注册的方法类名和 java 文件包名.
